@@ -4,4 +4,4 @@ description: >-
   Small-batch hardware design, prototyping, and open-source projects by Stuart Rogers.
 baseurl: ""
 url: "https://yourusername.github.io/atomicfrenzy-site"
-theme: minima
+theme: cayman
