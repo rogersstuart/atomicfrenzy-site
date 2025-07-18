@@ -1,10 +1,10 @@
 ---
 layout: product
-title: Item 25
+title: "Item 25"
 image: /assets/images/products/item-25.jpg
-price: Price not available
+price: "Price not available"
 amount: 0.00
-ebay_link: https://www.ebay.com/itm/225976883249?itmmeta=01K0DWP4H1J0KPTE221FG0YMAK&hash=item349d459831:g:EPEAAOSwZWNjpLS-
+ebay_link: https://www.ebay.com/itm/226218545696?itmmeta=01K0DXM8PPE9RPXGNSFJ48DZ6B&hash=item34abad1220:g:rGUAAOSwZPpmgF4g
 ---
 
 Item 25 available from Atomic Frenzy. High-quality electronic components and test equipment.
