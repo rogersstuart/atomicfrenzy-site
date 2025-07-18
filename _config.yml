@@ -5,3 +5,17 @@ description: >-
 baseurl: ""
 url: "https://yourusername.github.io/atomicfrenzy-site"
 theme: minima
+
+# Collections for product pages
+collections:
+  products:
+    output: true
+    permalink: /products/:path/
+
+# Add to defaults section
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"

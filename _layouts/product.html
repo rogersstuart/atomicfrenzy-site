@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="product">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="product-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+  </div>
+  
+  <div class="product-details">
+    <p class="price"><strong>Price:</strong> {{ page.price }}</p>
+    
+    <div class="product-actions">
+      <a href="{{ page.ebay_link }}" class="button ebay-button">Buy on eBay</a>
+      
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="business" value="stuart.rogers@atomicfrenzy.com">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="item_name" value="{{ page.title }}">
+        <input type="hidden" name="amount" value="{{ page.amount }}">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now">
+      </form>
+    </div>
+    
+    <div class="product-description">
+      {{ content }}
+    </div>
+  </div>
+</div>
