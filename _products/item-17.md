@@ -2,9 +2,11 @@
 layout: product
 title: "Item 17"
 image: /assets/images/products/item-17.jpg
-price: "Price not available"
-amount: 0.00
-ebay_link: https://www.ebay.com/itm/226218540693?itmmeta=01K0DXM8PNTCH7B4FYN1G2XE3P&hash=item34abacfe95:g:wKUAAOSwunhmgFGs
+price: "US $74.99"
+amount: 74.99
+ebay_link: https://www.ebay.com/itm/225983524190?itmmeta=01K0F2FHVAKH6Q6PA1R6HGYJB3&hash=item349daaed5e:g:bSIAAOSwW1Bjc7vN
 ---
 
-Item 17 available from Atomic Frenzy. High-quality electronic components and test equipment.
+
+
+High-quality electronic components and test equipment from Atomic Frenzy.
