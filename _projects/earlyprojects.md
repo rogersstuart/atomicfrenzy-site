@@ -5,6 +5,7 @@ image: /assets/images/projects/earlyprojects/ws2812b.jpg
 date: 2025-07-23
 author: Stuart Rogers
 tags: [I2C, WS2812B]
+order: 4
 ---
 
 These are some of the first PCBs I made during August of 2014.

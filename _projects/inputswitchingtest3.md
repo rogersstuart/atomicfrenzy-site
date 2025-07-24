@@ -5,6 +5,7 @@ image: /assets/images/projects/inputswitchingtest3/still.jpg
 date: 2025-07-23
 author: Stuart Rogers
 tags: [power supply, input protection, switching converter, reverse polarity, SCR, MOV, polyfuse, hardware design]
+order: 3
 ---
 
 Input Switching Test 3 is a switching converter designed to interface PIT v2 with a high input voltage of 36V, generating both 3.3V and 5V outputs. The concept behind this design was to enable the 36V input to both power the PIT and to control external devices, eliminating the need for additional power adapters or circuitry.

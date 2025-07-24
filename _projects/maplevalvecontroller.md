@@ -5,6 +5,7 @@ image: /assets/images/projects/maplevalvecontroller/main.png
 date: 2025-07-24
 author: Stuart Rogers
 tags: [maple syrup, controller, embedded systems, reverse engineering, thermal protection, hardware design, automation]
+order: 1
 ---
 
 Over the years, my engineering journey has led me through a variety of projects—one of which was the development of a replacement controller for a maple syrup evaporator. This opportunity arose during August of 2022 while attending an engineering class, where I met a local community member in need of a reliable solution for his equipment.

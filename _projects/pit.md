@@ -5,6 +5,7 @@ image: /assets/images/projects/pit/pit32.jpg
 date: 2025-07-23
 author: Stuart Rogers
 tags: [ESP32, Temperature Control, IoT, Hardware Design]
+order: 2
 ---
 
 Initially conceived of in May of 2016, the Programmable Interval Timer (PIT) began as a custom solution for a specific need: a programmable timer with integrated temperature control capabilities. While initially designed for a friend's unique application, the project evolved into a versatile control system with potential applications in 3D printing and environmental monitoring.
