@@ -44,7 +44,7 @@ Here's a brief video of me playing with the prototype.
   style="width:45%; height:250px; border-radius:8px;">
 </iframe>
 
-Photos of the real board.
+Photos of the board.
 
 <div style="display: flex; gap: 2%; justify-content: center;">
   <img src="/assets/images/projects/pit/pitv2left.jpg" alt="PIT v2 Front" style="width:45%;">
