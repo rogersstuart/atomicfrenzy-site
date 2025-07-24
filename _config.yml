@@ -3,5 +3,27 @@ email: stuart.rogers@atomicfrenzy.com
 description: >-
   Small-batch hardware design, prototyping, and open-source projects by Stuart Rogers.
 baseurl: ""
-url: "https://yourusername.github.io/atomicfrenzy-site"
-theme: minima
+url: "https://rogersstuart.github.io/atomicfrenzy-site"
+#theme: cayman
+
+# Collections for product pages
+collections:
+  products:
+    output: true
+    permalink: /products/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Add to defaults section
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

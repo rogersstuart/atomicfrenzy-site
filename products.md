@@ -1,24 +1,19 @@
 ---
 layout: default
-title: Products
+title: products
+permalink: /products/
 ---
 
 # Products
 
-## OLED DMM Display
-
-Compact digital multimeter display with I2C interface.
-
-- Open-source firmware
-- Easy to mount
-- Comes with 3D-printed enclosure
-
-[Buy Now with PayPal](#)
-
----
-
-## FPGA Synth Board (XVA1)
-
-Multi-layer PCB, VCO/VCF, fully open source.
-
-[View on GitHub](https://github.com/rogersstuart/XVA1)
+<div class="product-grid">
+  {% for product in site.products %}
+    <div class="product-card">
+      <a href="{{ product.url }}">
+        <img src="{{ product.image }}" alt="{{ product.title }}">
+        <h3>{{ product.title | truncate: 50 }}</h3>
+        <p class="price">{{ product.price }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
