@@ -461,7 +461,7 @@ img {
 }
 
 .blog-project-header {
-  position: sticky;
+  position: static !important;
   top: 3rem;
   z-index: 10;
   padding-top: 1.5rem; /* Add this line */
