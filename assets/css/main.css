@@ -465,4 +465,5 @@ img {
   top: 3rem;
   z-index: 10;
   padding-top: 1.5rem; /* Add this line */
+  padding-bottom: 1.5rem; /* Add this line */
 }
