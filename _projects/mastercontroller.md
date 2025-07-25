@@ -19,27 +19,9 @@ order: 1
   </iframe>
 </div>
 
-[Jump to Software Overview](#software-overview)  
-[Jump to History](#History of the Master Controller)  
-[Jump to GitHub](#github)
+[Jump to Software Overview](#the-master-controller-interface)
 
-## Software Overview
-
-The following is mostly a copy and paste from the GitHub readme.
-
-MasterController v2 Suite is an offline access control and building device management system. It allows administrators to manage RFID card access (store and sync card UIDs to door controllers), monitor and control building hardware (door locks, sensors, relays), and interface with external systems (e.g., via MQTT for web dashboards). The suite includes a Windows desktop application for configuration and monitoring, and background services for real-time device communication.
-
-C# (.NET 4.6.1) with WinForms for the admin UI. MySQL database for storing users, cards, and device data. Entity Framework 6 (planned integration) – currently using MySQL Connector/ADO.NET for data access. Windows Service components for hardware communication (sockets, UDP broadcasts, MQTT messaging). Integration of third-party libraries: MQTT (for IoT messaging), BouncyCastle (cryptography), EPPlus (Excel import/export), etc.
-
-The core functionality (card management, device interfacing, etc.) is in place and was tested in a live environment with legacy hardware controllers. Some features (e.g., initial database setup, SIP integration, and video monitoring) are prototypes or pending completion. Given more time, I would improve this project by migrating to Entity Framework (to simplify database interactions) and adding a setup wizard to handle first-time database initialization. I would also refactor some modules for better separation of concerns (e.g., decouple the service logic from the UI).
-
-Feel free to explore the code; notable sections include the custom MySQL connection pool in MCICommon and the DeviceServer service that manages device networks.
-
-This project was developed as a prototype for a building security system in a 12 story building. It successfully controlled 30 doors in real-time.
-
-[View on GitHub](https://github.com/rogersstuart/MasterController-v2-Suite)
-
-## History of the Master Controller
+## Master Controller Overview
 
 The Master Controller originated from a collaborative effort between myself and my employer to develop custom hardware solutions. At the time, we were in the process of acquiring an office building equipped with an outdated access control system that relied on Wiegand wire cards. As my first significant project, I anticipated a learning curve and potential setbacks.
 
@@ -61,7 +43,7 @@ The first fully functional system capable of maintaining a card list was a hand-
 
 <img src="/assets/images/projects/mastercontroller/elevatorv1.jpg" alt="Master Controller v1" style="width:45%;">
 
-This installation remained operational well beyond the introduction of the PCB version of the controller, only being replaced once the system was fully networked and transitioned to an MQTT-based architecture. As my first PCB design, it had several shortcomings. While the routing was functional, I was dissatisfied with its aesthetics. The screw terminals had minor gaps, causing them to rotate when tightened, and the board lacked expandability. Most notably, there was no header for programming the MCU—a feature present in the original perfboard prototype. Programming required attaching test clips directly to the MCU, which often meant working in awkward positions within mechanical rooms.
+This installation remained operational well beyond the introduction of the PCB version of the controller, only being replaced once the system was fully networked and transitioned to an MQTT-based architecture. As my first fabricated PCB design, it had several shortcomings. While the routing was functional, I was dissatisfied with its aesthetics. The screw terminals had minor gaps, causing them to rotate when tightened, and the board lacked expandability. Most notably, there was no header for programming the MCU—a feature present in the original perfboard prototype. Programming required attaching test clips directly to the MCU, which often meant working in awkward positions within mechanical rooms.
 
 Below is a photo of the control board and its schematic. The schematic, drawn in 2013, reflects my skills at the time. Interestingly, the actual PCB was laid out manually and never had a formal schematic, though the one shown here is nearly identical except for the inclusion of an ICSP header.
 
@@ -102,4 +84,18 @@ Here are some photos of the expander.
   <img src="/assets/images/projects/mastercontroller/expanderdev.jpg" alt="Expander Development">
 </div>
 
+## The Master Controller Interface
 
+The following is mostly a copy and paste from the GitHub readme.
+
+MasterController v2 Suite is an offline access control and building device management system. It allows administrators to manage RFID card access (store and sync card UIDs to door controllers), monitor and control building hardware (door locks, sensors, relays), and interface with external systems (e.g., via MQTT for web dashboards). The suite includes a Windows desktop application for configuration and monitoring, and background services for real-time device communication.
+
+C# (.NET 4.6.1) with WinForms for the admin UI. MySQL database for storing users, cards, and device data. Entity Framework 6 (planned integration) – currently using MySQL Connector/ADO.NET for data access. Windows Service components for hardware communication (sockets, UDP broadcasts, MQTT messaging). Integration of third-party libraries: MQTT (for IoT messaging), BouncyCastle (cryptography), EPPlus (Excel import/export), etc.
+
+The core functionality (card management, device interfacing, etc.) is in place and was tested in a live environment with legacy hardware controllers. Some features (e.g., initial database setup, SIP integration, and video monitoring) are prototypes or pending completion. Given more time, I would improve this project by migrating to Entity Framework (to simplify database interactions) and adding a setup wizard to handle first-time database initialization. I would also refactor some modules for better separation of concerns (e.g., decouple the service logic from the UI).
+
+Feel free to explore the code; notable sections include the custom MySQL connection pool in MCICommon and the DeviceServer service that manages device networks.
+
+This project was developed as a prototype for a building security system in a 12 story building. It successfully controlled 30 doors in real-time.
+
+[View on GitHub](https://github.com/rogersstuart/MasterController-v2-Suite)
