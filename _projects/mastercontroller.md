@@ -36,12 +36,15 @@ Initially, I attempted to simulate a Wiegand card swipe using an Arduino, but wa
 
 The hardware underwent several revisions. Beyond the front door panel, a battery-powered timer served as the initial version of the elevator access control system. This device interfaced with the elevator controller in the same manner as the original access control system, utilizing relays connected to an Arduino powered by a battery. It featured a basic serial interface that required a physical connection for access.
 
-<iframe 
-  src="https://www.youtube.com/embed/3-v7LREPuWk?autoplay=1&mute=1&loop=1&playlist=3-v7LREPuWk&controls=0&modestbranding=1" 
-  frameborder="0" 
-  allow="autoplay; encrypted-media" 
-  style="width:45%; height:250px; border-radius:8px;">
-</iframe>
+<div style="display: flex; gap: 2%; justify-content: center; align-items: center;">
+  <img src="/assets/images/projects/mastercontroller/timersw.jpg" alt="Timer Switch" style="width:45%;">
+  <iframe 
+    src="https://www.youtube.com/embed/3-v7LREPuWk?autoplay=1&mute=1&loop=1&playlist=3-v7LREPuWk&controls=0&modestbranding=1" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    style="width:45%; height:250px; border-radius:8px;">
+  </iframe>
+</div>
 
 The first fully functional system capable of maintaining a card list was a hand-soldered prototype built on perfboard. This version incorporated an Arduino, RTC, EEPROMs, battery, LEDs, and several transistors. Although my understanding of transistor-based switching was limited at the time (today, I would use a triac), the circuit performed reliably and remained in service for an extended period.
 
@@ -55,3 +58,7 @@ Below is a photo of the control board and its schematic. The schematic, drawn in
 <img src="/assets/images/projects/mastercontroller/v2programming.jpg" alt="Master Controller v2" style="width:45%;">
 <img src="/assets/images/projects/mastercontroller/mcsch.jpg" alt="Master Controller v2 Schematic" style="width:45%;">
 </div>
+
+Past the earliest prototype there have existed door panels. Like the rest of the system they were based on Arduinos. They featured an PN532 NFC card reader as well as the arduino, voltage regulator (switching in later versions to avoid voltage drop), and RGB led.
+
+Here are some photos 
