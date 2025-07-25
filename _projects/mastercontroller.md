@@ -86,6 +86,9 @@ A dedicated form within the MCI application provided convenient access to expand
 
 Here are some photos of the expander.
 
-
+<div class="flex-row">
+  <img src="/assets/images/projects/mastercontroller/expander.jpg" alt="Expander">
+  <img src="/assets/images/projects/mastercontroller/expanderdev.jpg" alt="Expander Development">
+</div>
 
 
