@@ -65,17 +65,17 @@ Below are several photos of the door panels.
 
 <!-- First row -->
 <div style="display: flex; gap: 2%; justify-content: center;">
-  <img src="fdpanel.jpg" alt="Front Door Panel Exterior" style="width:45%;">
-  <img src="fdpanelinside.jpg" alt="Front Door Panel Inside" style="width:45%;">
+  <img src="/assets/images/projects/mastercontroller/fdpanel.jpg" alt="Front Door Panel Exterior" style="width:45%;">
+  <img src="/assets/images/projects/mastercontroller/fdpanelinside.jpg" alt="Front Door Panel Inside" style="width:45%;">
 </div>
 
 <!-- Second row -->
 <div style="display: flex; gap: 2%; justify-content: center;">
-  <img src="elevatorpanel.jpg" alt="Elevator Panel" style="width:45%;">
-  <img src="panelparts.jpg" alt="Panel Parts" style="width:45%;">
+  <img src="/assets/images/projects/mastercontroller/elevatorpanel.jpg" alt="Elevator Panel" style="width:45%;">
+  <img src="/assets/images/projects/mastercontroller/panelparts.jpg" alt="Panel Parts" style="width:45%;">
 </div>
 
 <!-- Third row (odd photo, centered) -->
 <div style="display: flex; gap: 2%; justify-content: center;">
-  <img src="panelaction.gif" alt="Panel In Action" style="width:45%;">
+  <img src="/assets/images/projects/mastercontroller/panelaction.gif" alt="Panel In Action" style="width:45%;">
 </div>
