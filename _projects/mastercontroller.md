@@ -78,4 +78,14 @@ Below are several photos of the door panels.
   <img src="/assets/images/projects/mastercontroller/panelaction.gif" alt="Panel In Action">
 </div>
 
-Adding a PLC was a logical next step. At the time PLCs were more expensive and I simply had no experience with them so when I decided that there was a need for a networkable box with relays in it I decided to come up with my own solution. 
+Following the deployment of the initial controller prototypes and door panels, the next logical progression was to consider integrating a PLC into the system. However, due to the higher cost of PLCs at the time and my limited experience with them, I opted to develop a custom solution tailored to our specific requirements for a networked relay box. This led to the development of the "expander"—a unit featuring two 16-channel relay boards, an Arduino controller, status LEDs, a fan with PWM control, an I2C power monitor, temperature sensors, and an external communication interface.
+
+For a period, the expander included a built-in bypass that allowed a set of relays to be toggled by grounding a control wire. It was designed to integrate seamlessly with the elevator control system, operating alongside the original protoboard controller and within its existing limitations. While this configuration did not permit individual floor control via access cards, the expander itself was fully controllable over the network. This limitation was later addressed by connecting the panels to the network and integrating them into the new MQTT-based system.
+
+A dedicated form within the MCI application provided convenient access to expander controls, which were frequently utilized. Subsequently, an MQTT server was implemented, enabling tenants to remotely lock and unlock their respective floors. This functionality was primarily developed for the main tenant, who occupied the entire fifth floor of the building.
+
+Here are some photos of the expander.
+
+
+
+
