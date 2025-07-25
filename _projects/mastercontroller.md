@@ -8,12 +8,14 @@ tags: [access control, building automation, security system, Arduino, hardware d
 order: 1
 ---
 
+<div class="flex-row">
  <iframe 
     src="https://www.youtube.com/embed/Q8FklPluW18?autoplay=1&mute=1&loop=1&playlist=Q8FklPluW18&controls=0&modestbranding=1" 
     frameborder="0" 
     allow="autoplay; encrypted-media" 
     style="width:45%; height:250px; border-radius:8px;">
 </iframe>
+</div>
 
 [Jump to Software Overview](#software-overview)  
 [Jump to History](#History of the Master Controller)  
