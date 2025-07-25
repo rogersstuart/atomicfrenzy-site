@@ -1,10 +1,10 @@
 ---
 layout: project
 title: "Master Controller"
-image: /assets/images/projects/earlyprojects/ws2812b.jpg
+image: /assets/images/projects/mastercontroller/fdpanel.jpg
 date: 2025-07-24
 author: Stuart Rogers
-tags: []
+tags: [access control, building automation, security system, Arduino, hardware design, embedded systems, RFID, NFC, database, MySQL, WinForms, IoT, device management, relay control, software development, prototyping]
 order: 4
 ---
 
