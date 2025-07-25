@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Energy Harvester"
-image: /assets/images/projects/energyharvister/board.jpg
+image: /assets/images/projects/energyharvester/board.jpg
 date: 2025-07-23
 author: Stuart Rogers
 tags: [energy harvesting, solar, battery charging, TI BQ2557, environmental monitoring, hardware design]
