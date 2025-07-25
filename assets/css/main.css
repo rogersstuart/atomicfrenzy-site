@@ -459,3 +459,10 @@ img {
     max-width: 100%;
   }
 }
+
+.blog-project-header {
+  position: sticky;
+  top: 48px; /* Match your .header-bar height */
+  z-index: 10;
+  background: #fff;
+}
