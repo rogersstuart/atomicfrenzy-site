@@ -8,13 +8,15 @@ tags: [access control, building automation, security system, Arduino, hardware d
 order: 1
 ---
 
+<div style="height: 1.5rem;"></div>
+
 <div class="flex-row">
- <iframe 
+  <iframe 
     src="https://www.youtube.com/embed/Q8FklPluW18?autoplay=1&mute=1&loop=1&playlist=Q8FklPluW18&controls=0&modestbranding=1" 
     frameborder="0" 
     allow="autoplay; encrypted-media" 
     style="width:45%; height:250px; border-radius:8px;">
-</iframe>
+  </iframe>
 </div>
 
 [Jump to Software Overview](#software-overview)  
