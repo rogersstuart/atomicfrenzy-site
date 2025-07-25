@@ -464,6 +464,5 @@ img {
   position: sticky;
   top: 3rem;
   z-index: 10;
-  background: #fff; /* Optional: prevent content showing through */
   padding-top: 1.5rem; /* Add this line */
 }
