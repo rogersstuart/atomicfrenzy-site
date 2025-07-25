@@ -59,6 +59,23 @@ Below is a photo of the control board and its schematic. The schematic, drawn in
 <img src="/assets/images/projects/mastercontroller/mcsch.jpg" alt="Master Controller v2 Schematic" style="width:45%;">
 </div>
 
-Past the earliest prototype there have existed door panels. Like the rest of the system they were based on Arduinos. They featured an PN532 NFC card reader as well as the arduino, voltage regulator (switching in later versions to avoid voltage drop), and RGB led.
+Following the initial prototype, dedicated door panels were developed as part of the system. These panels, like the rest of the architecture, were based on Arduino microcontrollers. Each panel incorporated a PN532 NFC card reader, a voltage regulator (with later versions utilizing switching regulators to minimize voltage drop), and an RGB LED for status indication.
 
-Here are some photos 
+Below are several photos of the door panels.
+
+<!-- First row -->
+<div style="display: flex; gap: 2%; justify-content: center;">
+  <img src="fdpanel.jpg" alt="Front Door Panel Exterior" style="width:45%;">
+  <img src="fdpanelinside.jpg" alt="Front Door Panel Inside" style="width:45%;">
+</div>
+
+<!-- Second row -->
+<div style="display: flex; gap: 2%; justify-content: center;">
+  <img src="elevatorpanel.jpg" alt="Elevator Panel" style="width:45%;">
+  <img src="panelparts.jpg" alt="Panel Parts" style="width:45%;">
+</div>
+
+<!-- Third row (odd photo, centered) -->
+<div style="display: flex; gap: 2%; justify-content: center;">
+  <img src="panelaction.gif" alt="Panel In Action" style="width:45%;">
+</div>
