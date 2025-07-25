@@ -411,16 +411,18 @@ img {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.flex-row img {
-  width: 45%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-}
 .flex-row {
   display: flex;
   gap: 2%;
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+}
+
+.flex-row img,
+.flex-row iframe {
+  max-width: 45%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }

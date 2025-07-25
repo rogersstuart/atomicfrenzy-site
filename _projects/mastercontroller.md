@@ -5,7 +5,7 @@ image: /assets/images/projects/mastercontroller/fdpanel.jpg
 date: 2025-07-24
 author: Stuart Rogers
 tags: [access control, building automation, security system, Arduino, hardware design, embedded systems, RFID, NFC, database, MySQL, WinForms, IoT, device management, relay control, software development, prototyping]
-order: 4
+order: 1
 ---
 
 [Jump to Software Overview](#software-overview)  
