@@ -416,13 +416,46 @@ img {
   gap: 2%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 2rem;
 }
 
 .flex-row img,
 .flex-row iframe {
-  max-width: 45%;
+  width: 45%;
+  max-width: 22rem;         /* Responsive max width */
+  aspect-ratio: 16 / 10;    /* Keeps images/iframes proportional */
   height: auto;
   object-fit: contain;
+  background: #f1f5f9;
+  border-radius: 0.5rem;
   display: block;
+  box-sizing: border-box;
+}
+
+/* For single images in a row, center them and limit width */
+.flex-row:only-child img,
+.flex-row:only-child iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 900px) {
+  .flex-row img,
+  .flex-row iframe {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .flex-row img,
+  .flex-row iframe {
+    width: 100%;
+    max-width: 100%;
+  }
 }
