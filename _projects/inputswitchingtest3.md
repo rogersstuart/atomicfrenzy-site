@@ -22,5 +22,5 @@ This did exist as a DIY PCB prototype. The purpose was test the backflow and rev
 
 <div class="flex-row">
 <img src="/assets/images/projects/inputswitchingtest3/diyboard.jpg" alt="Dead Bug" style="width:45%;">
-<img src="/assets/images/projects/mastercontroller/prox.gif" alt="Sensor Testing" style="width:45%;">
+<img src="/assets/images/projects/inputswitchingtest3/prox.gif" alt="Sensor Testing" style="width:45%;">
 </div>
