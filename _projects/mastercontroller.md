@@ -36,7 +36,7 @@ Initially, I attempted to simulate a Wiegand card swipe using an Arduino, but wa
 
 The hardware underwent several revisions. Beyond the front door panel, a battery-powered timer served as the initial version of the elevator access control system. This device interfaced with the elevator controller in the same manner as the original access control system, utilizing relays connected to an Arduino powered by a battery. It featured a basic serial interface that required a physical connection for access.
 
-<div style="display: flex; gap: 2%; justify-content: center; align-items: center;">
+<div class="flex-row">
   <img src="/assets/images/projects/mastercontroller/timersw.jpg" alt="Timer Switch" style="width:45%;">
   <iframe 
     src="https://www.youtube.com/embed/3-v7LREPuWk?autoplay=1&mute=1&loop=1&playlist=3-v7LREPuWk&controls=0&modestbranding=1" 
@@ -54,7 +54,7 @@ This installation remained operational well beyond the introduction of the PCB v
 
 Below is a photo of the control board and its schematic. The schematic, drawn in 2013, reflects my skills at the time. Interestingly, the actual PCB was laid out manually and never had a formal schematic, though the one shown here is nearly identical except for the inclusion of an ICSP header.
 
-<div style="display: flex; gap: 2%; justify-content: center;">
+<div class="flex-row">
 <img src="/assets/images/projects/mastercontroller/v2programming.jpg" alt="Master Controller v2" style="width:45%;">
 <img src="/assets/images/projects/mastercontroller/mcsch.jpg" alt="Master Controller v2 Schematic" style="width:45%;">
 </div>
@@ -64,18 +64,16 @@ Following the initial prototype, dedicated door panels were developed as part of
 Below are several photos of the door panels.
 
 <!-- First row -->
-<div style="display: flex; gap: 2%; justify-content: center;">
-  <img src="/assets/images/projects/mastercontroller/fdpanel.jpg" alt="Front Door Panel Exterior" style="width:45%;">
-  <img src="/assets/images/projects/mastercontroller/fdpanelinside.jpg" alt="Front Door Panel Inside" style="width:45%;">
+<div class="flex-row">
+  <img src="/assets/images/projects/mastercontroller/fdpanel.jpg" alt="Front Door Panel Exterior">
+  <img src="/assets/images/projects/mastercontroller/fdpanelinside.jpg" alt="Front Door Panel Inside">
 </div>
-
 <!-- Second row -->
-<div style="display: flex; gap: 2%; justify-content: center;">
-  <img src="/assets/images/projects/mastercontroller/elevatorpanel.jpg" alt="Elevator Panel" style="width:45%;">
-  <img src="/assets/images/projects/mastercontroller/panelparts.jpg" alt="Panel Parts" style="width:45%;">
+<div class="flex-row">
+  <img src="/assets/images/projects/mastercontroller/elevatorpanel.jpg" alt="Elevator Panel">
+  <img src="/assets/images/projects/mastercontroller/panelparts.jpg" alt="Panel Parts">
 </div>
-
 <!-- Third row (odd photo, centered) -->
-<div style="display: flex; gap: 2%; justify-content: center;">
-  <img src="/assets/images/projects/mastercontroller/panelaction.gif" alt="Panel In Action" style="width:45%;">
+<div class="flex-row">
+  <img src="/assets/images/projects/mastercontroller/panelaction.gif" alt="Panel In Action">
 </div>
