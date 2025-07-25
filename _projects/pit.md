@@ -68,7 +68,10 @@ Backlight Testing
 ## Innovative Solutions
 One interesting aspect of this project is the use of a proximity sensor. While it looks cool, the dead bug soldered chip is the result of forgetting to mirror the gerber for the DIY method of PCB fabrication.
 
+<div class="flex-row">
 <img src="/assets/images/projects/pit/deadbug.jpg" alt="Proximity Sensor Dead Bug Construction" style="width:45%;">
+<img src="/assets/images/projects/pit/prox.gif" alt="Sensor Testing" style="width:45%;">
+</div>
 
 While the project is currently on hold, its source code remains available on GitHub for reference and potential future development.
 

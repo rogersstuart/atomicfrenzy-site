@@ -20,7 +20,4 @@ By incorporating a thyristor (SCR), the design leverages the increasing voltage 
 
 This did exist as a DIY PCB prototype. The purpose was test the backflow and reverse polarity protection.
 
-<div class="flex-row">
 <img src="/assets/images/projects/inputswitchingtest3/diyboard.jpg" alt="Dead Bug" style="width:45%;">
-<img src="/assets/images/projects/inputswitchingtest3/prox.gif" alt="Sensor Testing" style="width:45%;">
-</div>
