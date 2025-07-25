@@ -77,3 +77,5 @@ Below are several photos of the door panels.
 <div class="flex-row">
   <img src="/assets/images/projects/mastercontroller/panelaction.gif" alt="Panel In Action">
 </div>
+
+Adding a PLC was a logical next step. At the time PLCs were more expensive and I simply had no experience with them so when I decided that there was a need for a networkable box with relays in it I decided to come up with my own solution. 

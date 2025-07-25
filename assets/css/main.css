@@ -464,5 +464,4 @@ img {
   position: sticky;
   top: 48px; /* Match your .header-bar height */
   z-index: 10;
-  background: #fff;
 }
