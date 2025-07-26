@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Logic Display"
-image: /assets/images/projects/earlyprojects/logicdisplayback.jpg
+image: /assets/images/projects/logicdisplay/logicdisplayback.jpg
 date: 2025-07-26
 author: Stuart Rogers
 tags: [multimeter, OLED display, SSD1303, SSD1305, logic chips, PCB design, hardware reverse engineering, Hackaday, soldering, repair, four-layer PCB, thermal management, user modification]
