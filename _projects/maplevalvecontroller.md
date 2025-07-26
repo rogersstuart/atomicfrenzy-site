@@ -10,7 +10,14 @@ order: 1
 
 Over the years, my engineering journey has led me through a variety of projects—one of which was the development of a replacement controller for a maple syrup evaporator. This opportunity arose during August of 2022 while attending an engineering class, where I met a local community member in need of a reliable solution for his equipment.
 
-I reverse engineered the original board and designed a new controller, selecting higher-quality components and implementing robust thermal protection. Although the original board’s photos were lost due to a damaged phone, some documentation remains.
+I reverse engineered the original board and designed a new controller, selecting higher-quality components and implementing robust thermal protection.
+
+Photos of the original board that I reverse engineered.
+
+<div class="flex-row">
+  <img src="/assets/images/projects/maplevalvecontroller/ogfront.jpg" alt="OG Maple Front">
+  <img src="/assets/images/projects/maplevalvecontroller/ogback.jpg" alt="OG Maple Back">
+</div>
 
 Below is a video demonstration of the controller in operation:
 
