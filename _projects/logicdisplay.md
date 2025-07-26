@@ -10,7 +10,7 @@ order: 1
 
 This project is a display module designed to replace the OLED display in the U1273A/AX or U1253A/B multimeter. It performs SSD1303 to SSD1305 command conversion using only logic chips. The original concept was developed by the community, and I first encountered its application in a coffee maker repair featured on Hackaday. After reverse engineering the community layout, I created my own variant.
 
-The following is the current version of the display module for the U1253 series. The U1273 series simply have the screw holes moved to a different location.
+The following images are of the current version of the display module for the U1253 series. The U1273 series simply have the screw holes moved to a different location.
 
 <div class="flex-row">
   <img src="/assets/images/projects/logicdisplay/logicdisplayfront.jpg" alt="U1253 Display Front">
@@ -31,7 +31,19 @@ While the design was functional, it placed significant reliance on the user's so
   <img src="/assets/images/projects/logicdisplay/mod.jpg" alt="Mod Wire">
 </div>
 <div class="flex-row">
-  <img src="/assets/images/projects/mastercontroller/components.jpg" alt="Missing Components">
+  <img src="/assets/images/projects/logicdisplay/components.jpg" alt="Missing Components">
+</div>
+
+To help mitigate these issues, I provided instructions for assembly and troubleshooting. While the written documentation has unfortunately been lost, some audiovisual content remains available.
+
+<div class="flex-row">
+  <img src="/assets/images/projects/logicdisplay/instructions.jpg" alt="Instructions" style="width:45%;">
+  <iframe 
+    src="https://www.youtube.com/embed/JvKGLjt6IR0?autoplay=1&mute=1&loop=1&playlist=JvKGLjt6IR0&controls=0&modestbranding=1" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    style="width:45%; height:250px; border-radius:8px;">
+  </iframe>
 </div>
 
 
